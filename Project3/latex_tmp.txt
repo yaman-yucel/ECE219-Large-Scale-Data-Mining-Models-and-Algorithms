@@ -1,0 +1,31 @@
+\begin{array}{r}
+
+\bold{A} \bold{x}=\left[\begin{array}{c}
+\bold{a_1}^T \\
+\bold{a_2}^T \\
+\vdots \\
+\bold{a_m}^T
+\end{array}\right] \bold{x}=\left[\begin{array}{c}
+\bold{a_1}^T \bold{x} \\
+\bold{a_2}^T \bold{x} \\
+\vdots \\
+\bold{a_m}^T \bold{x}
+\end{array}\right]  \\
+\bold{c}^T \bold{x} = \sum_{i=1}^m (c_i x_i) \Rightarrow = \frac{\partial \sum_{i=1}^m (c_i x_i)}{\partial x_i}= c_i \Rightarrow \frac{\partial \bold{c}^T \bold{x}}{\partial \bold{x}}=    \begin{bmatrix}
+        c_{1} \\
+        c_{2}\\
+        \vdots\\
+        c_{m}
+    \end{bmatrix} = \bold{c}\\
+\frac{\partial \bold{A} \bold{x}}{\partial \bold{x}}=\left[\begin{array}{c}
+\frac{\partial \bold{a_1}^T \bold{x}}{\partial \bold{x}} \\
+\frac{\partial \bold{a_2}^T \bold{x}}{\partial \bold{x}} \\
+\vdots \\
+\frac{\partial \bold{a_m}^T x}{\partial \bold{x}}
+\end{array}\right]=\left[\begin{array}{c}
+\bold{a_1}^T \\
+\bold{a_2}^T \\
+\vdots \\
+\bold{a_m}^T
+\end{array}\right] \Rightarrow \frac{\partial \bold{A} \bold{x}}{\partial \bold{x}}=\bold{A}
+\end{array}
