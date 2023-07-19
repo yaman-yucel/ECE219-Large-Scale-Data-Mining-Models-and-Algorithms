@@ -1,2 +1,3 @@
 # ECE219-Large-Scale-Data-Mining-Models-and-Algorithms
-4 Projects for the course.
+Course projects.  
+Check README and report at each folder for more information.
